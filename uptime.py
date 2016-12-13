@@ -5,11 +5,9 @@ import datetime
 import requests
 import time
 
-clients = {"http://thevideoshack.net": ["swapnil@auberginesolutions.com"],
-           "http://theback.space":["swapnil@auberginesolutions.com","swapnilpatel0069@gmail.com"],
-           "http://auberginesolutions.com":["swapnil@auberginesolutions.com"],
-           "http://www.octaviuspharma.com":["swapnil@auberginesolutions.com"],
-           "http://www.travel-zone.ca":["swapnil@auberginesolutions.com"]}
+clients = {"http://auberginesolutions.com":["swapnil@auberginesolutions.com","sarthak@auberginesolutions.com"],
+           "http://www.octaviuspharma.com":["swapnil@auberginesolutions.com", "kirtanpadia@gmail.com", "sarthak@auberginesolutions.com"],
+           "http://www.travel-zone.ca":["swapnil@auberginesolutions.com","sarthak@auberginesolutions.com"]}
 clients_down = {}
 
 def site_up():
