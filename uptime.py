@@ -55,8 +55,8 @@ def send_email(input_message, email_to, client):
     print "send_mail ", input_message, " for ",client, " to ",email_to
     try:
         to = email_to
-        gmail_user = 'swapnil@auberginesolutions.com'
-        gmail_pwd = 'hakunamatata1395'
+        gmail_user = 'username@domain.com'
+        gmail_pwd = 'password'
         smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
         smtpserver.ehlo()
         smtpserver.starttls()
